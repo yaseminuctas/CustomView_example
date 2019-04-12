@@ -1,0 +1,66 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/etxt"
+        android:layout_width="180dp"
+        android:layout_height="95dp"
+        android:layout_marginLeft="18dp"/>
+
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="190dp"
+        android:layout_height="65dp"
+        android:background="@color/colorAccent"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="50dp"
+        android:text="TIKLA"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+
+
+    <EditText
+    android:id="@+id/etxt1"
+    android:layout_below="@+id/etxt"
+    android:layout_width="180dp"
+    android:layout_height="110dp"
+    android:layout_marginLeft="18dp"/>
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_below="@+id/btn"
+        android:layout_width="190dp"
+        android:layout_height="65dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="50dp"
+        android:text="TIKLA"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/etxt2"
+        android:layout_width="180dp"
+        android:layout_height="115dp"
+        android:layout_below="@+id/etxt1"
+        android:layout_marginLeft="18dp" />
+
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="190dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/btn1"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/colord"
+        android:text="TIKLA"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+</merge>
